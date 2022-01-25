@@ -48,7 +48,7 @@ class Snake{
 
     Point getPosfirst();
 
-    private:
+    protected:
     std::vector<Point *> positions;
     sf::RenderWindow* window;
 
